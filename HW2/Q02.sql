@@ -1,0 +1,4 @@
+SELECT PNUMBER, DNUM, LNAME, ADDRESS, BDATE
+FROM PROJECT, DEPARTMENT, EMPLOYEE
+WHERE plocation = "Stafford" and Department.dnumber = PROJECT.dnum
+	  and DEPARTMENT.MgrSSN = EMPLOYEE.ssn;

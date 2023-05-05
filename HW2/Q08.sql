@@ -1,0 +1,2 @@
+SELECT distinct(SALARY)
+FROM EMPLOYEE;

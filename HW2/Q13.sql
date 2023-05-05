@@ -1,0 +1,6 @@
+SELECT FNAME,LNAME
+FROM employee AS E
+WHERE NOT EXISTS(
+	SELECT ESSN 
+    FROM dependent 
+    WHERE E.SSN = ESSN);

@@ -1,0 +1,3 @@
+SELECT DNo, COUNT(*), AVG(Salary)
+FROM Employee
+GROUP BY DNo;
